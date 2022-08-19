@@ -16,11 +16,8 @@ let Course = new mongoose.Schema({
         type:String
     },
     learning:{
-        hours:{
             type:String,
             required:true
-        },
-        duration:String
     },
     price:mongoose.Types.Decimal128,
     Diploma:{
